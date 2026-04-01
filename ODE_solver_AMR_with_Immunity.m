@@ -73,10 +73,10 @@ dYdt = [dS; dT; dR];
 end
 
 %params.rS = 0; %static drugs
-params.rS = 0.8; %cidal drugs
+params.rS = 0.3; %cidal drugs
 %params.rT = 0.3; %static drugs
 params.rT = 0.5; %cidal drugs
-params.rR = 0.3;
+params.rR = 0.8;
 params.KP = 1e8;
 
 params.deltaI = 1e-6;
@@ -90,7 +90,7 @@ params.ED50 = 1e-8;
 %params.K = 0.25; %static drugs
 %params.KT = 0.5; %static drugs
 
-params.kappa_TS =0.0053;
+params.kappa_TS =0.97;
 params.kappa_ST = 0.0053;
 params.kappa_RT = 1e-8;
 
